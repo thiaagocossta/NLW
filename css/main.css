@@ -5,15 +5,15 @@
     --color-primary: #8257e5;
     --color-primary-dark: #774dd6;
     --color-primary-darker: #6842c2;
-    --color-secundary: #04d361;
-    --color-secundary-dark: #04bf58;
+    --color-secondary: #04d361;
+    --color-secondary-dark: #04bf58;
     --color-tittle-in-primary: #ffffff;
     --color-text-in-primary: #d4c2ff;
     --color-text-tittle: #32264d;
     --color-text-complement: #9c98a6;
     --color-text-base: #6a6180;
     --color-line-in-white: #e6e6f0;
-    --color-input-background: #f8f8fc;
+    --color-input-background: #fcf8f8;
     --color-button-text: #ffffff;
     --color-box-base: #ffffff;
     --color-box-footer: #fafafc;
@@ -49,4 +49,10 @@ body, input, button, textarea{
 #container{
     width: 90vw;
     max-width: 700px;
+}
+
+@media (min-width: 700px) {
+    :root{
+        font-size: 62.5%;
+    }
 }
